@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html> 
+    <head> 
+        <title> contact me</title>
+    </head>
  <header> 
-    <h1> Contact Number</h1>
+    <h1> Contact Me</h1>
      <br> 
-     <p> example number : 0123456789 </p>
-
+     <p> If you wish to Contact Me please fill in the following form :) </p>
+ <br>
  </header>   
+ <body>
+<br>
+<h2> Contact Form</h2>
+<form>
+    <fieldset>
+        
+        <legend> Personal Details</legend>
+        <label for="forename"> Forename</label>
+        <input id="forename" type="text">
+
+        <br>
+        <label for="surname">Surname</label>
+        <input id="surname" type="text">
+        <br>
+        <label> for="dob">Date of Birth</label>
+        <input id="dob" type="date">
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Reason for contact</legend>
+        <label for="notes">What is your reason for contact?</label> 
+        <textarea id="notes"></textarea>
+        <br>
+        <input type="checkbox" id="testbox">
+        <label for="testbox">Can you check this box?</label>
+    </fieldset>
+    <button type="submit">can you press this button</button>
+</form>
 </html>
