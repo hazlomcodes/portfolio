@@ -1,0 +1,79 @@
+
+
+
+
+body {
+    background-color:#e0b58c;
+    font:normal 10px Lucida,
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right:10%;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+
+    .box1{
+        background-color:#F9F3CF;
+    width:100%;
+    padding:60px;
+    
+    }
+
+    img{ border-radius: 50%;}
+
+    .box2{
+        background-color:#EDE7CF;
+        width:100%;
+        padding:60px;
+    }
+
+    .box3{
+        background-color:#DDBC89;
+    width:100%;
+    padding:60px;
+    }
+
+    .box4{
+        background-color: #AA512F;
+        width:100%;
+        padding:60px;
+    
+    }
+
+    .forename{background-color:#e0b58c;}
+
+    .surname{background-color: #e0b58c;}
+
+    .dob{background-color: #e0b58c;}
+
+    .notes{background-color: #e0b58c;
+    position:relative;}
+
+    .testbox{opacity:.5;}
+    button{background-color:#e0b58c}
+
+    
+
+
+
+
+    
+
+    
+
+
+
+
+    
+  
+  
+    
+
